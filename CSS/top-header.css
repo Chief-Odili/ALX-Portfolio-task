@@ -1,0 +1,33 @@
+/*style for top header section*/
+body {
+    margin: 0;
+}
+.top-header {
+    display: flex;
+    width: 100%;
+    padding: 5px 0px;
+    background-color: gray;
+    color: whitesmoke;
+}
+.top-phone, .top-email {
+    margin: top 5px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.top-social {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+@media (max-width: 600px) {
+   .top-social {
+    display: none;
+   } 
+   .top-email, .top-phone {
+    font-size: 12px;
+   }
+}

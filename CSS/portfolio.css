@@ -1,0 +1,69 @@
+/*style for portfolio page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.portfolio-sub-title {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+.portfolio-container {
+    display: block;
+    width: 90%;
+    margin: 70px auto 40px auto;
+    text-align: center;
+}
+
+.portfolio-box {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 5px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0 , 0.4);
+    margin: 5px;
+    border-radius: 12px;
+}
+
+.portfolio-box img {
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.portfolio-box h3{
+    color: darkolivegreen;
+    font-size: 15px;
+}
+
+.portfolio-box a{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.portfolio-box a:hover  {
+    color: seagreen;
+}
+
+@media (max-width: 700px) {
+    .portfolio-box{
+        display: block;
+        width: 80%;
+        margin: 0%,auto, auto, 15%;
+    }
+    .portfolio-box img {
+        width: 250px;
+    }
+    .portfolio-box a {
+        font-size: 20px;
+    }  
+}

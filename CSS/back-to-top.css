@@ -1,0 +1,19 @@
+.back-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.back-to-top a {
+    font-size: 24px;
+    color: antiquewhite;
+    background-color: gray;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.back-to-top a:hover  {
+    background-color: seagreen;
+    color: whitesmoke;
+}

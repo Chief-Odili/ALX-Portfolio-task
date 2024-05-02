@@ -1,0 +1,69 @@
+/*Style for the testimonial section*/
+.testimonial-container {
+    display: block;
+    width: 90%;
+    margin: 100px auto 60px auto;
+    text-align: center;
+}
+
+.testimonial-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.testimonial-sub-title {
+    font-size: 15px;
+    margin-top: -12px;
+    font-weight: 400;
+}
+
+.testimonial-sub-title span {
+    color: green;
+}
+
+.testimonial-box {
+    display: inline-block;
+    width: 22.5%;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.9);
+    padding: 20px 5px;
+    margin: 7px;
+    border-radius: 0 100px 0 100px;
+}
+
+.testimonial-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testimonial-box p {
+    display: block;
+    width: 90%;
+    margin: 40px auto -10px auto;
+    text-align: center;
+}
+
+.testimonial-box .name {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+
+.testimonial-box .position {
+    font-style: italic;
+    font-weight: 300;  
+}
+
+@media (max-width: 700px) {
+    .testimonial-box {
+        width: 70%;
+        display: block;
+        margin: 40px auto 40px auto;
+        padding-bottom: 50px;
+    }
+
+    .testimonial-box img {
+        width: 100px;
+        height: 100px;
+    }
+}

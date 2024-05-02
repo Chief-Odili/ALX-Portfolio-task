@@ -1,0 +1,109 @@
+/*Style for professional Skills*/
+.skill-container {
+    display: block;
+    width: 90%;
+    margin: 70px auto 0 auto;
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.skill-sub-title {
+    text-align: center;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.skill-box {
+    display: inline-block;
+    width: 27%;
+    text-align: center;
+    margin: 20px;
+}
+
+.skill-bar {
+    background-color: darkgray;
+    width: 100%;
+    padding: 1px;
+    border-radius: 12px;
+}
+
+.html-rate {
+    background-color: seagreen;
+    width: 95%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px0;
+    color: white;
+    border-radius: 12px;
+}
+
+.css-rate {
+    background-color: seagreen;
+    width: 75%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px0;
+    color: white;
+    border-radius: 12px;
+}
+
+.javascript-rate {
+    background-color: seagreen;
+    width: 60%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px0;
+    color: white;
+    border-radius: 12px;
+}
+
+.python-rate {
+    background-color: seagreen;
+    width: 88%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px0;
+    color: white;
+    border-radius: 12px;
+}
+
+.wordpress-rate {
+    background-color: seagreen;
+    width: 80%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px0;
+    color: white;
+    border-radius: 12px;
+}
+
+.php-rate {
+    background-color: seagreen;
+    width: 32%;
+    padding: 3px 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px0;
+    color: white;
+    border-radius: 12px;
+}
+
+@media (max-width: 700px) {
+    .skill-box {
+        display: block;
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+    .skill-box h2 {
+        margin: 30px 0 -10px 0;
+    }
+}
